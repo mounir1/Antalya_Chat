@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0b"
+    android:orientation="vertical"
+    tools:context="com.marceme.Antalya_Chat.ui.RegisterActivity">
+
+    <!-- For the purpose of the app, many attributes are not refactored-->
+
+    <TextView
+        android:id="@+id/titleChat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/log_in_margin"
+        android:text="AIU Chat"
+        android:textColor="@color/text_color"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/userFirstNameRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/log_in_margin"
+        android:layout_marginRight="@dimen/log_in_margin"
+        android:layout_marginTop="40dp"
+        android:hint=" User Name"
+        android:textColor="@color/text_color"
+        android:textColorHint="@color/text_color" />
+
+    <EditText
+        android:id="@+id/userEmailRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/log_in_margin"
+        android:layout_marginRight="@dimen/log_in_margin"
+        android:hint=" Email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/text_color"
+        android:textColorHint="@color/text_color" />
+
+    <EditText
+        android:id="@+id/passWordRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/log_in_margin"
+        android:layout_marginRight="@dimen/log_in_margin"
+        android:ems="10"
+        android:hint=" Password"
+        android:inputType="textPassword"
+        android:textColor="@color/text_color"
+        android:textColorHint="@color/text_color" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/log_in_margin"
+        android:layout_marginRight="@dimen/log_in_margin"
+        android:layout_marginTop="8dp"
+        android:text="@string/hello_world" />
+
+    <Button
+        android:id="@+id/cancelRegisterButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/log_in_margin"
+
+        android:layout_marginRight="@dimen/log_in_margin"
+        android:layout_marginTop="8dp"
+        android:text="@string/cancel" />
+
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:src="@drawable/logo"/>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imageView"
+            android:src="@drawable/aiu" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

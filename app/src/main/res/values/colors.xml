@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bg_user_message">#ffffff</color>
+    <color name="primary_dark">#E69</color>
+    <color name="primary">#FF2</color>
+    <color name="accent">#f00</color>
+    <color name="divider">#B2F</color>
+    <color name="text_color">#ffff</color>
+    <color name="text_color_icon">#21FF21</color>
+
+</resources>
